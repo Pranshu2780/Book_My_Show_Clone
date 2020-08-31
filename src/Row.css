@@ -1,0 +1,27 @@
+.row_poster img{
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_poster{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_poster::-webkit-scrollbar{
+    display:none;
+}
+
+.row_poster img:hover{
+   transform: scale(1.08);
+}
+
+.row{
+    font-family: Roboto,sans-serif;
+    
+}
