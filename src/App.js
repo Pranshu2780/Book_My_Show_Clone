@@ -5,16 +5,20 @@ import placeholder from './placeholder.png'
 import './App.css';
 import Navbar from './Navbar.js';
 import Fle from './Fle.js';
-import Slider from './Slider.js';
+import Footer from './Footer'
+//import Slider from './Slider.js';
 // import Item from './Item'
 function App() {
   return (
       <div className="App">
 
        <Navbar />
-       <Slider />       
-       <div className="Trend">Trending Searches</div>
-       
+      {/*<Slider />*/} 
+
+
+      
+      <div className="Trend">Trending Searches</div>
+       <div className="bod">
        <div className="cont" >
           <div className="bo" >
              <div>Sadak 2</div> 
@@ -45,6 +49,27 @@ function App() {
           </div>
        </div>
 
+       <div className="contain">
+            <div className="boxy">
+                  <img src={placeholder} width="100%" height="300px" />
+            </div> 
+       </div>
+   
+       <div className="contain">
+            <div className="boxy">
+                  <img src={placeholder} width="100%" height="300px" />
+            </div> 
+       </div>
+   
+       <div className="contain">
+            <div className="boxy">
+                  <img src={placeholder} width="100%" height="300px" />
+            </div> 
+       </div>
+   
+       </div>
+
+       
        <div className="Heading" >Events</div>
        <button className="btn-heading ">View all</button>
        <Fle />
@@ -60,7 +85,7 @@ function App() {
        <div className="Heading" >Activities</div>
        <button className="btn-heading ">View all</button>
        <Fle />
-       
+       <Footer/>
     
       </div>   
   );
