@@ -13,9 +13,12 @@ function App() {
       <div className="App">
 
        <Navbar />
-      {/*<Slider />*/}       
-       <div className="Trend">Trending Searches</div>
-       
+      {/*<Slider />*/} 
+
+
+      
+      <div className="Trend">Trending Searches</div>
+       <div className="bod">
        <div className="cont" >
           <div className="bo" >
              <div>Sadak 2</div> 
@@ -46,6 +49,27 @@ function App() {
           </div>
        </div>
 
+       <div className="contain">
+            <div className="boxy">
+                  <img src={placeholder} width="100%" height="300px" />
+            </div> 
+       </div>
+   
+       <div className="contain">
+            <div className="boxy">
+                  <img src={placeholder} width="100%" height="300px" />
+            </div> 
+       </div>
+   
+       <div className="contain">
+            <div className="boxy">
+                  <img src={placeholder} width="100%" height="300px" />
+            </div> 
+       </div>
+   
+       </div>
+
+       
        <div className="Heading" >Events</div>
        <button className="btn-heading ">View all</button>
        <Fle />
