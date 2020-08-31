@@ -1,0 +1,37 @@
+.footerlinks{
+    background-color: #333338;
+    font-family: Roboto,sans-serif;
+}
+
+#content-wrap{
+    padding-bottom: 20rem;
+}
+
+.main-content{
+    display: flex;
+    flex:1 0 21%;
+    color: #f9f9f9;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 120px;
+}
+
+.main-head{
+    font-size:12px;
+    font-weight:50;
+}
+
+.content{
+    padding: 10px;
+    flex-basis: 20%;
+    font-size:11px;
+    font-weight:50;
+    color:#c5c5c5;
+}
+
+span{
+    padding-bottom: 10px;
+}
+
+.content p{
+    padding-top:6px
+}

@@ -1,0 +1,42 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+span {
+    font-family: Roboto,sans-serif;
+}
+
+.link{
+    font-size:11px;
+    font-weight:50;
+}
+
+.sup{
+    font-size:11px;
+    font-weight:400;
+    color:rgba(188, 192, 196, 0.74);
+    padding-top: 15px;
+}
+
+.sup a{
+    color:rgba(188, 192, 196, 0.74);
+    text-decoration: none;
+}
+
+.sup a:hover{
+    color:white
+}
+
+.sup-action{
+    background-color:#404043
+}
+
+.sup-icon{
+    color:white;
+    padding-top:20px
+}
+
+.sup-main{
+    background-color:#313035
+}

@@ -5,14 +5,15 @@ import placeholder from './placeholder.png'
 import './App.css';
 import Navbar from './Navbar.js';
 import Fle from './Fle.js';
-import Slider from './Slider.js';
+import Footer from './Footer'
+//import Slider from './Slider.js';
 // import Item from './Item'
 function App() {
   return (
       <div className="App">
 
        <Navbar />
-       <Slider />       
+      {/*<Slider />*/}       
        <div className="Trend">Trending Searches</div>
        
        <div className="cont" >
@@ -60,7 +61,7 @@ function App() {
        <div className="Heading" >Activities</div>
        <button className="btn-heading ">View all</button>
        <Fle />
-       
+       <Footer/>
     
       </div>   
   );
