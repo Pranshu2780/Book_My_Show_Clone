@@ -6,16 +6,16 @@ import './App.css';
 import Navbar from './Navbar.js';
 import Fle from './Fle.js';
 import Footer from './Footer'
-//import Slider from './Slider.js';
+// import Slider from './Slider.js';
 // import Item from './Item'
 function App() {
   return (
       <div className="App">
 
        <Navbar />
-      {/*<Slider />*/} 
+      {/* <Slider />  */}
 
-
+ 
       
       <div className="Trend">Trending Searches</div>
        <div className="bod">
