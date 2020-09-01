@@ -1,9 +1,23 @@
 .row_poster img{
     object-fit: contain;
     width: 100%;
-    max-height: 300px;
-    margin-right: 10px;
+    max-height: 375px;
+    margin-right: 250px;
     transition: transform 450ms;
+    padding-right:10px
+}
+
+.row_poster_title{
+    background-color: #ffffff;
+    border:1px solid grey;
+    border-radius:2px ;
+    margin:10px 0 0 4px;
+    height:10%;
+    display:flex;
+}
+
+.row_poster_title :first-child{
+    width:150px;
 }
 
 .row_poster{
@@ -18,10 +32,10 @@
 }
 
 .row_poster img:hover{
-   transform: scale(1.08);
+   transform: scale(1.06);
 }
 
 .row{
     font-family: Roboto,sans-serif;
-    
 }
+

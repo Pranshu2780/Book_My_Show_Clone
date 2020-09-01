@@ -27,11 +27,17 @@ const Row = ({ title, getMovie, isLargeRow }) => {
             <h2>{title}</h2>
             <div className="row_poster">
                 {movies.map(movie => (
-                    <img key={movie.id} src={`${baseurl}${movie.poster_path}`} alt={movie.title} />
+                    <div>
+                        <img key={movie.id} src={`${baseurl}${movie.poster_path}`} alt={movie.title} />
+                            <div className="row_poster_title">
+                                <span>{new Date().toDateString().slice(4,10)}</span>
+                                <span>{movie.title}</span>
+                            </div>
+                    </div>
                 ))}
             </div>
-        </div>
-    )
+                    </div>
+                )
 }
 
 export default Row
