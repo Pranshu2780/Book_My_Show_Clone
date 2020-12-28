@@ -1,12 +1,12 @@
 import React from 'react';
-import logobms from './logobms.png';
-import bmsslogo from './bmsslogo.png';
+// import logobms from './logobms.png';
+import bmsslogo from './bmsslogo.PNG';
 function Navbar(){
 return(
    
     <div>
          <header className="App-header">
-           <li className="logo" > <img src={bmsslogo} width="20px" height="20px" /> </li>
+           <li className="logo" > <img src={bmsslogo} width="120px" height="40px" /> </li>
     
           <input className="sear" type="text" placeholder="Search for Movies,Events,Plays,Sports and Activities" />
   

@@ -6,7 +6,7 @@ body{
   box-sizing:border-box;
   background-color: rgb(244,244,244);
   font-family: 'Roboto', sans-serif;
-  color: #333333;
+  /* color: #333333; */
 }
 
 
@@ -16,25 +16,50 @@ li,a,button{
   color:white;
 }
 
-header>li{
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-   font-size: 16px;
-   font-weight:400px;
-   font-family: 'Roboto', sans-serif;
-}
+
 /* Navbar Styling Start */
 
 .App-header{
   display:flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   background-color: #333545;
-  height:7vh ;
+  /* height:4vh ; */
   padding-top:25px;
   color: aliceblue;
+  /* position: relative; */
+}
+
+.sear{
+  width :40%;
+  height:25px;
+  border-radius: 5px;
+  outline:none;
+  /* position: absolute; */
+  margin-left:0px;
+  margin-top: 0;
+  justify-content:center;
+  /* padding-top:10px; */
+}
+
+.logo{
+  /* position: absolute; */
+  padding-left:140px;
+  margin-left: 30;
 }
 
 .fn{
   display: flex;
+  margin-left: 150px;
+  margin-right:10px;
+  /* justify-content:space-between; */
+}
+
+.sign-btn{
+  background-color:transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding:4px;
 }
 
 .App-header-2{
