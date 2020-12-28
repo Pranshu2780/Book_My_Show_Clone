@@ -24,7 +24,7 @@ const Row = ({ title, getMovie, isLargeRow }) => {
 
     return (
         <div className="row">
-            <h2>{title}</h2>
+            <h2 className="title_row">{title}</h2>
             <div className="row_poster">
                 {movies.map(movie => (
                     <div>
