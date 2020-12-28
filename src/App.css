@@ -140,7 +140,7 @@ li,a,button{
 
 .cont{
   margin-left: 30px;
-  display: flex;
+  flex:0.2;
 }
 
 .bo{
@@ -149,4 +149,14 @@ li,a,button{
   width:240px;
   height: 510px;
   padding-left: 20px;
+}
+
+.Main_content{
+  display: flex;
+}
+
+.Row_content{
+  flex:0.8;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }

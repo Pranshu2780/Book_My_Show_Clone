@@ -28,7 +28,7 @@ const Row = ({ title, getMovie, isLargeRow }) => {
             <div className="row_poster">
                 {movies.map(movie => (
                     <div>
-                        <img key={movie.id} src={`${baseurl}${movie.poster_path}`} alt={movie.title} />
+                        <img  key={movie.id} src={`${baseurl}${movie.poster_path}`} alt={movie.title} />
                             <div className="row_poster_title">
                                 <span>{new Date().toDateString().slice(4,10)}</span>
                                 <span>{movie.title}</span>
