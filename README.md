@@ -1,5 +1,7 @@
 # Book-my-show_Clone
 
+## Screenshots of our Project
+![Screenshot (51)](https://user-images.githubusercontent.com/47604864/103236835-ee1ae380-496b-11eb-9e6c-48a8c916a88b.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
