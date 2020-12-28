@@ -2,9 +2,9 @@ body{
   padding:0;
   margin:0;
   box-sizing:border-box;
-  background-color: #F2F2F2;
-  font-family: sans-serif;
+  background-color: rgb(244,244,244);
 }
+
 
 li,a,button{
   list-style-type: none;
@@ -13,28 +13,6 @@ li,a,button{
 }
 
 /* Navbar Stylins Start */
-
-.logo{
-  font-size: 27px;
-}
-
-.sear{
-  position: absolute;
-  left:300px;
-  top:20px;
-  height: 32px;;
-  width: 450px;
-  padding-left:40px;
-  outline: none;
-  border-radius: 5px;
-}
-
-.sign-btn{
-   background-color: transparent;
-   border: 1px solid white;
-   padding:7px;
-   /* padding-left: px; */
-}
 
 .App-header{
   display:flex;
@@ -47,11 +25,6 @@ li,a,button{
 
 .fn{
   display: flex;
-  padding-left:600px;
-}
-
-.fn li{
-  padding-left: 30px;
 }
 
 .App-header-2{
@@ -79,11 +52,12 @@ li,a,button{
 
 .Trend{
   padding-top:50px;
-  margin-left:50px;
+  margin-left:30px;
   /* font-weight:bold ; */
   font-size:20px;
   padding-bottom:10px;
 }
+
 
 .tre-btn{
    background-color: transparent;
@@ -95,37 +69,29 @@ li,a,button{
 /* Body Styling Started */
 .Heading{
   position: absolute;
-  padding-left:50px;
-  font-size:25px;
+  padding-left:340px;
+  font-size:20px;
   /* padding-top:100px; */
   font-weight: bold;
 }
 
 .btn-heading{
-  margin-left:1050px;
+  margin-left:1250px;
   color: blue;
-  /* outline: none; */
+  outline: none;
   background-color: transparent;
   cursor: pointer;
   border:none;  
   font-size:16px;
 }
 
-.container{
-  justify-content: center;
-  width: 90%;
-  height: 100vh;
-  margin-left:50px;
-  display:flex;
-}
 
 .box{
-  flex:1;
-  margin-right: 40px;
+  margin-left: 40px;
   margin-top:20px;
-  width: 100px;
-  height: 320px;
-  background-color: red;
+  width: 300px;
+  height: 500px;
+  background-color: white;
   border-radius: 12px;
   outline: none;
   box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
@@ -137,39 +103,15 @@ li,a,button{
 
 /* Body Styling finishes */
 
+.cont{
+  margin-left: 30px;
+  display: flex;
+}
 
 .bo{
   background-color: white;
   box-shadow: 2px 10px 12px (0,0,0,0.5);
-  width:200px;
-  margin-left:30px;
-  height: 330px;
-  /* padding-left: 20px; */
-  flex:1;
-}
-
-.bod{
-  display:flex;
-}
-
-.sec{
-  flex:4;
-  width: 70%;
-  height: 100vh;
-}
-.contain{
-  /* justify-content: center; */
-  display: flex;
-  margin-right:30px;
-  /* flex:3; */
-}
-
-.boxy{
-  margin-left: 50px;
-  width: 230px;
-  height: 320px;
-  background-color: white;
-  border-radius: 12px;
-  outline: none;
-  box-shadow: 2px 10px 12px (0,0,0,0.5);
+  width:240px;
+  height: 510px;
+  padding-left: 20px;
 }

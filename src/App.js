@@ -6,107 +6,55 @@ import './App.css';
 import Navbar from './Navbar.js';
 import Fle from './Fle.js';
 import Footer from './Footer'
-// import Slider from './Slider.js';
-// import Item from './Item'
+import request from './Request'
+import Row from './Row'
+
+
 function App() {
-  return (
+   return (
       <div className="App">
 
-       <Navbar />
-      {/* <Slider />  */}
+         <Navbar />
 
- 
-      
-      <div className="Trend">Trending Searches</div>
-      
-      <div className="bod">
-      
-            <div className="bo" >
-                  <div>Sadak 2</div> 
+         <div className="Trend">Trending Searches</div>
+
+            <div className="cont" >
+               <div className="bo" >
+                  <div>Sadak 2</div>
                   <button className="tre-btn" >Movies</button>
-                  <hr/>
-                  <div>Tenet</div> 
+                  <hr />
+                  <div>Tenet</div>
                   <button className="tre-btn" >Movies</button>
-                  <hr/>
+                  <hr />
                   <div>Life is a Circus(Evening)-25th September</div>
-                  <button className="tre-btn" >Events</button> 
-                  <hr/>
-                  <div>K.G.F. Chapter-2</div> 
-                  <button className="tre-btn" >Movies</button>
-                  <hr/>
-                  <div>Black Panther 3D</div> 
-                  <button className="tre-btn" >Movies</button>
-                  <hr/>
-                  <div>Purukrama (A musical show)</div> 
                   <button className="tre-btn" >Events</button>
-                  <hr/>
+                  <hr />
+                  <div>K.G.F. Chapter-2</div>
+                  <button className="tre-btn" >Movies</button>
+                  <hr />
+                  <div>Black Panther 3D</div>
+                  <button className="tre-btn" >Movies</button>
+                  <hr />
+                  <div>Purukrama (A musical show)</div>
+                  <button className="tre-btn" >Events</button>
+                  <hr />
                   <div>Barkha Ritu</div>
                   <button className="tre-btn" >Events</button>
-                  <hr/>
-                  <div>Sadak Movies </div> 
+                  <hr />
+                  <div>Sadak Movies </div>
                   <button className="tre-btn" >Movies</button>
-                  
-         </div>
 
-         <div className="sec">
-            <div className="contain" >
-                  <div className="boxy">
-                        <img src={placeholder}width="100%" height="80%" />
-                  </div> 
-                  <div className="boxy">
-                        <img src={placeholder}width="100%" height="80%" />
-                  </div> 
-                  <div className="boxy">
-                        <img src={placeholder}width="100%" height="80%" />
-                  </div> 
-                  <div className="boxy">
-                        <img src={placeholder}width="100%" height="80%" />
-                  </div> 
+               </div>
             </div>
-          </div>
-     
-     {/* <div className="contain">
-            <div className="boxy">
-                  <img src={placeholder}width="100%" height="150%" />
-            </div> 
-       </div>
-   
-       <div className="contain">
-            <div className="boxy">
-                  <img src={placeholder}width="100%" height="150%" />
-            </div> 
-       </div>
-   
-       <div className="contain">
-            <div className="boxy">
-                  <img src={placeholder} width="100%" height="150%" />
-            </div> 
-       </div>
-     */}
-       </div>
+            <Row title="Trending" getMovie={request.getTrending} />
+            <Row title="Top Rated" getMovie={request.getTopRated} />
+            <Row title="Action Movies" getMovie={request.getActionMovies} />
+            <Row title="Comedy Movies" getMovie={request.getComedyMovies} />
+            <Row title="Horror Movies" getMovie={request.getHorrorMovies} />
+         <Footer />
 
-       
-       <div className="Heading" >Events</div>
-       <button className="btn-heading ">View all</button>
-       <Fle />
-
-       <div className="Heading" >Plays</div>
-       <button className="btn-heading ">View all</button>
-       <Fle />
-
-       <div className="Heading" >Sports</div>
-       <button className="btn-heading ">View all</button>
-       <Fle />
-
-       <div className="Heading" >Activities</div>
-       <button className="btn-heading ">View all</button>
-       <Fle />
-       
-       <Footer/>
-    
-      </div>   
-  );
+      </div>
+   );
 }
 
 export default App;
-
