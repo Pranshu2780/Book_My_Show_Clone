@@ -8,7 +8,7 @@
 ![4rv2b4](https://user-images.githubusercontent.com/44869356/103241297-c2eac100-4978-11eb-9806-af206dd5081c.gif)
 
 ### 1.
-![Screenshot (51)](https://user-images.githubusercontent.com/47604864/103236835-ee1ae380-496b-11eb-9e6c-48a8c916a88b.png)
+![Screenshot (46)](https://user-images.githubusercontent.com/44869356/103242818-a1d89f00-497d-11eb-9a86-64b94d9ed931.png)
 
 <br />
 <br />
