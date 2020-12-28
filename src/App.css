@@ -1,8 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
 body{
   padding:0;
   margin:0;
   box-sizing:border-box;
   background-color: rgb(244,244,244);
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
 }
 
 
@@ -12,7 +16,13 @@ li,a,button{
   color:white;
 }
 
-/* Navbar Stylins Start */
+header>li{
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+   font-size: 16px;
+   font-weight:400px;
+   font-family: 'Roboto', sans-serif;
+}
+/* Navbar Styling Start */
 
 .App-header{
   display:flex;

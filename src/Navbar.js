@@ -1,22 +1,22 @@
 import React from 'react';
 import logobms from './logobms.png';
-
+import bmsslogo from './bmsslogo.png';
 function Navbar(){
 return(
    
     <div>
          <header className="App-header">
-    <li class="logo">book <img src={logobms} width="20px" height="20px" /> show</li>
+           <li className="logo" > <img src={bmsslogo} width="20px" height="20px" /> </li>
     
-    <input className="sear" type="text" placeholder="Search for Movies,Events,Plays,Sports and Activities" />
+          <input className="sear" type="text" placeholder="Search for Movies,Events,Plays,Sports and Activities" />
   
-    <nav class="fn">
-       <li> <a href="#" >Mumbai</a> </li>
-       <li> <a href="#" >English</a> </li>
-    </nav>
+              <nav class="fn">
+                <li> <a href="#" >Mumbai</a> </li>
+                <li> <a href="#" >English</a> </li>
+              </nav>
   
-    <li> <a> <button className="sign-btn" > Sign In </button> </a> </li>
-  </header>
+          <li> <a> <button className="sign-btn" > Sign In </button> </a> </li>
+        </header>
 
   <header className="App-header-2">
 
