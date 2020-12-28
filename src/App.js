@@ -17,7 +17,7 @@ function App() {
          <Navbar />
 
          <div className="Trend">Trending Searches</div>
-
+         <div className="Main_content">
             <div className="cont" >
                <div className="bo" >
                   <div>Sadak 2</div>
@@ -46,11 +46,14 @@ function App() {
 
                </div>
             </div>
-            <Row title="Trending" getMovie={request.getTrending} />
-            <Row title="Top Rated" getMovie={request.getTopRated} />
-            <Row title="Action Movies" getMovie={request.getActionMovies} />
-            <Row title="Comedy Movies" getMovie={request.getComedyMovies} />
-            <Row title="Horror Movies" getMovie={request.getHorrorMovies} />
+            <div className="Row_content">
+               <Row title="Trending" getMovie={request.getTrending} />
+               <Row title="Top Rated" getMovie={request.getTopRated} />
+               <Row title="Action Movies" getMovie={request.getActionMovies} />
+               <Row title="Comedy Movies" getMovie={request.getComedyMovies} />
+               <Row title="Horror Movies" getMovie={request.getHorrorMovies} />
+            </div>
+         </div>
          <Footer />
 
       </div>
