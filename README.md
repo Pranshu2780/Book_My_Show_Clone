@@ -1,27 +1,36 @@
 # Book_my_show_Clone
 
 ## Screenshots of our Project
+<br/>
+<br/>
 ### 1.
 ![Screenshot (51)](https://user-images.githubusercontent.com/47604864/103236835-ee1ae380-496b-11eb-9e6c-48a8c916a88b.png)
-
+<br/>
+<br/>
 ### 2.
 ![Screenshot (52)](https://user-images.githubusercontent.com/47604864/103236903-23273600-496c-11eb-856e-bb7fe9d54def.png)
-
+<br/>
+<br/>
 ### 3.
 ![Screenshot (53)](https://user-images.githubusercontent.com/47604864/103236909-29b5ad80-496c-11eb-9528-f30d915e2f6b.png)
-
+<br/>
+<br/>
 ### 4.
 ![Screenshot (54)](https://user-images.githubusercontent.com/47604864/103236926-35a16f80-496c-11eb-819c-19f2964e15e1.png)
-
+<br/>
+<br/>
 ### 5.
 ![Screenshot (55)](https://user-images.githubusercontent.com/47604864/103236937-3d611400-496c-11eb-8955-2e5d12bebd97.png)
-
+<br/>
+<br/>
 ### 6.
 ![Screenshot (56)](https://user-images.githubusercontent.com/47604864/103236961-48b43f80-496c-11eb-9d19-d4f83087e888.png)
-
+<br/>
+<br/>
 ### 7.
 ![Screenshot (57)](https://user-images.githubusercontent.com/47604864/103236968-4eaa2080-496c-11eb-8a6b-06684c2805ec.png)
-
+<br/>
+<br/>
 ### 8.
 ![Screenshot (58)](https://user-images.githubusercontent.com/47604864/103236975-52d63e00-496c-11eb-80a2-b8b3bdedf02d.png)
 
