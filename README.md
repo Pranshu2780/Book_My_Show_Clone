@@ -1,13 +1,14 @@
 # Book_my_show_Clone
 
 ## Screenshots of our Project
-<br/>
-<br/>
+<br />
+<br />
 ### 1.
 ![Screenshot (51)](https://user-images.githubusercontent.com/47604864/103236835-ee1ae380-496b-11eb-9e6c-48a8c916a88b.png)
 
-<br/>
-<br/>
+<br />
+<br />
+
 ### 2.
 ![Screenshot (52)](https://user-images.githubusercontent.com/47604864/103236903-23273600-496c-11eb-856e-bb7fe9d54def.png)
 <br/>
