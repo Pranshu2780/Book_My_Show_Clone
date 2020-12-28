@@ -18,55 +18,71 @@ function App() {
  
       
       <div className="Trend">Trending Searches</div>
-       <div className="bod">
-       <div className="cont" >
-          <div className="bo" >
-             <div>Sadak 2</div> 
-             <button className="tre-btn" >Movies</button>
-             <hr/>
-             <div>Tenet</div> 
-             <button className="tre-btn" >Movies</button>
-             <hr/>
-             <div>Life is a Circus(Evening)-25th September</div>
-             <button className="tre-btn" >Events</button> 
-             <hr/>
-             <div>K.G.F. Chapter-2</div> 
-             <button className="tre-btn" >Movies</button>
-             <hr/>
-             <div>Black Panther 3D</div> 
-             <button className="tre-btn" >Movies</button>
-             <hr/>
-             <div>Purukrama (A musical show)</div> 
-             <button className="tre-btn" >Events</button>
-             <hr/>
-             <div>Barkha Ritu</div>
-             <button className="tre-btn" >Events</button>
-             <hr/>
-             <div>Sadak Movies </div> 
-             <button className="tre-btn" >Movies</button>
-            
+      
+      <div className="bod">
+      
+            <div className="bo" >
+                  <div>Sadak 2</div> 
+                  <button className="tre-btn" >Movies</button>
+                  <hr/>
+                  <div>Tenet</div> 
+                  <button className="tre-btn" >Movies</button>
+                  <hr/>
+                  <div>Life is a Circus(Evening)-25th September</div>
+                  <button className="tre-btn" >Events</button> 
+                  <hr/>
+                  <div>K.G.F. Chapter-2</div> 
+                  <button className="tre-btn" >Movies</button>
+                  <hr/>
+                  <div>Black Panther 3D</div> 
+                  <button className="tre-btn" >Movies</button>
+                  <hr/>
+                  <div>Purukrama (A musical show)</div> 
+                  <button className="tre-btn" >Events</button>
+                  <hr/>
+                  <div>Barkha Ritu</div>
+                  <button className="tre-btn" >Events</button>
+                  <hr/>
+                  <div>Sadak Movies </div> 
+                  <button className="tre-btn" >Movies</button>
+                  
+         </div>
 
+         <div className="sec">
+            <div className="contain" >
+                  <div className="boxy">
+                        <img src={placeholder}width="100%" height="80%" />
+                  </div> 
+                  <div className="boxy">
+                        <img src={placeholder}width="100%" height="80%" />
+                  </div> 
+                  <div className="boxy">
+                        <img src={placeholder}width="100%" height="80%" />
+                  </div> 
+                  <div className="boxy">
+                        <img src={placeholder}width="100%" height="80%" />
+                  </div> 
+            </div>
           </div>
-       </div>
-
-       <div className="contain">
+     
+     {/* <div className="contain">
             <div className="boxy">
-                  <img src={placeholder} width="100%" height="300px" />
+                  <img src={placeholder}width="100%" height="150%" />
             </div> 
        </div>
    
        <div className="contain">
             <div className="boxy">
-                  <img src={placeholder} width="100%" height="300px" />
+                  <img src={placeholder}width="100%" height="150%" />
             </div> 
        </div>
    
        <div className="contain">
             <div className="boxy">
-                  <img src={placeholder} width="100%" height="300px" />
+                  <img src={placeholder} width="100%" height="150%" />
             </div> 
        </div>
-   
+     */}
        </div>
 
        
@@ -85,6 +101,7 @@ function App() {
        <div className="Heading" >Activities</div>
        <button className="btn-heading ">View all</button>
        <Fle />
+       
        <Footer/>
     
       </div>   

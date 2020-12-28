@@ -79,7 +79,7 @@ li,a,button{
 
 .Trend{
   padding-top:50px;
-  margin-left:150px;
+  margin-left:50px;
   /* font-weight:bold ; */
   font-size:20px;
   padding-bottom:10px;
@@ -95,16 +95,16 @@ li,a,button{
 /* Body Styling Started */
 .Heading{
   position: absolute;
-  padding-left:340px;
-  font-size:20px;
+  padding-left:50px;
+  font-size:25px;
   /* padding-top:100px; */
   font-weight: bold;
 }
 
 .btn-heading{
-  margin-left:1250px;
+  margin-left:1050px;
   color: blue;
-  outline: none;
+  /* outline: none; */
   background-color: transparent;
   cursor: pointer;
   border:none;  
@@ -113,18 +113,19 @@ li,a,button{
 
 .container{
   justify-content: center;
-  /* margin-right:1100px; */
-  width: 100%;
+  width: 90%;
   height: 100vh;
+  margin-left:50px;
   display:flex;
 }
 
 .box{
-  margin-left: 40px;
+  flex:1;
+  margin-right: 40px;
   margin-top:20px;
-  width: 300px;
-  height: 500px;
-  background-color: white;
+  width: 100px;
+  height: 320px;
+  background-color: red;
   border-radius: 12px;
   outline: none;
   box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
@@ -136,36 +137,37 @@ li,a,button{
 
 /* Body Styling finishes */
 
-.cont{
-  margin-left: 150px;
-  display: flex;
-}
 
 .bo{
   background-color: white;
   box-shadow: 2px 10px 12px (0,0,0,0.5);
-  width:240px;
-  height: 410px;
-  padding-left: 20px;
+  width:200px;
+  margin-left:30px;
+  height: 330px;
+  /* padding-left: 20px; */
+  flex:1;
 }
 
 .bod{
   display:flex;
 }
 
-.contain{
-  justify-content: center;
-  /* margin-right:1100px; */
-  width: 100%;
+.sec{
+  flex:4;
+  width: 70%;
   height: 100vh;
-  /* display:flex; */
+}
+.contain{
+  /* justify-content: center; */
+  display: flex;
+  margin-right:30px;
+  /* flex:3; */
 }
 
 .boxy{
   margin-left: 50px;
-  /* margin-top:20px; */
-  width: 270px;
-  height: 300px;
+  width: 230px;
+  height: 320px;
   background-color: white;
   border-radius: 12px;
   outline: none;
