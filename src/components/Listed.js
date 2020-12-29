@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import './Listed.css'
+import '../css/Listed.css'
 import FiberNewIcon from '@material-ui/icons/FiberNew';
-import Hline from './Hline'
+import Hline from '../Hline'
 import Social from './Social'
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import placeholder from './placeholder.png'
-import './App.css';
+import placeholder from '../images/placeholder.png'
+import '../css/App.css';
 
 function Fle(){ 
     return(

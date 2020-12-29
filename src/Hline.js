@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid } from '@material-ui/core'
-import logo from './bookmyshow.jpg'
+import logo from './images/bookmyshow.jpg'
 
 const Hline = () => {
 

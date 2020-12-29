@@ -6,7 +6,7 @@ import ConfirmationNumberIcon from '@material-ui/icons/ConfirmationNumber';
 import EmailIcon from '@material-ui/icons/Email';
 import HomeIcon from '@material-ui/icons/Home';
 import Listed from './Listed'
-import './Footer.css'
+import '../css/Footer.css'
 
 
 
