@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import axios from './axios'
-import './Row.css';
-import { Grid } from '@material-ui/core'
+import axios from '../axios'
+import '../css/Row.css';
 
 const baseurl = "https://image.tmdb.org/t/p/original/";
 

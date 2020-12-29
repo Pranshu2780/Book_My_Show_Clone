@@ -1,12 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import logobms from './logobms.png';
-import placeholder from './placeholder.png'
-import './App.css';
+import '../css/App.css';
 import Navbar from './Navbar.js';
-import Fle from './Fle.js';
 import Footer from './Footer'
-import request from './Request'
+import request from '../Request'
 import Row from './Row'
 
 
